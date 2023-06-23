@@ -12,4 +12,6 @@ print(list(result))
 numbers = (1, 2, 3, 4)
 result = list(map(addition, numbers))
 print(result)
+print(type(result))
+print(type(numbers))
 
